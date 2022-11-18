@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <title>object-task</title>
+        <h2><head>Object task</head></h2>
+       
+        <body>
+    
+            <p id="demo"></p>
+        <script>
+            const person = {
+                FirstName : "John",
+                LastName : "Doe",
+                alert : function() {
+                    return this.FirstName + " " + this.LastName;
+                }  
+                
+            };
+            
+            document.getElementById("demo").innerHTML = person.alert();
+            
+            
+
+        
+
+        </script>
+        </body>
+         
+
+
+</html>
